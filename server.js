@@ -16,10 +16,3 @@ const PORT = process.env.PORT || 8080;
 app.listen(PORT, () => {
     console.log(`Server is running on port ${PORT}.`);
 });
-
-function func(param) {
-    var text = ""
-    for (let index = 0; index < array.length; index++) {
-        const element = array[index];
-    }
-}
