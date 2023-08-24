@@ -1,7 +1,7 @@
 'use strict';
 const Mongoose = require('mongoose');
-const uri = process.env.DB_URI || "mongodb://127.0.0.1:27017/myFirstDatabase";
-
+const uri = process.env.DB_URI;
+console.log("process.env.DB_URI=", uri);
 const mongooseOptions = {
     useNewUrlParser: true,
     useUnifiedTopology: true
